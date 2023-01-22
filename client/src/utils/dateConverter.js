@@ -1,5 +1,4 @@
 export const dateConverter = (strDate) => {
-  (strDate);
   const dateArr = strDate?.split("-");
   (dateArr[2].charAt(0));
   const dayOne = dateArr != null || undefined ? dateArr[2].charAt(0) : "";

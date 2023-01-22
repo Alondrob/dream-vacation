@@ -16,7 +16,6 @@ const HostPropertyCard = ({
   const user = useSelector((state) => state.user.user);
   const userProperties = useSelector((state) => state.user.userProperties);
   const selectedProperty = userProperties.filter((item) => item._id === property._id);
-  (selectedProperty);
   const dateConverter = (dateStr) => {
     const convertedDate = dateStr.split(/[T]/)[0].split(/[-]/);
     return convertedDate[2] + "-" + convertedDate[2] + "-" + convertedDate[0];
